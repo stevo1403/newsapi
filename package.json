@@ -25,9 +25,9 @@
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.10.5",
-    "@babel/preset-env": "^7.10.4",
+    "@babel/cli": "^7.27.0",
+    "@babel/core": "^7.26.10",
+    "@babel/preset-env": "^7.26.9",
     "dotenv": "^8.2.0",
     "mocha": "^8.0.1",
     "should": "^13.2.3"
