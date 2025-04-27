@@ -105,7 +105,7 @@ function splitArgsIntoOptionsAndCallback(args) {
  */
 function createUrlFromEndpointAndOptions(endpoint, options) {
   const query = qs.stringify(options);
-  const baseURL = CORSProxyUrl.length > 0 ? `${CORSProxyUrl}${encodeURIComponent(host)}${endpoint}` ? `${CORSProxyUrl}${host}${endpoint}`;
+  const baseURL = CORSProxyUrl.length > 0 ? `${CORSProxyUrl}${encodeURIComponent(host)}${endpoint}` : `${CORSProxyUrl}${host}${endpoint}`;
   return query ? `${baseURL}?${query}` : baseURL;
 }
 
